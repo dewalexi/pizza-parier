@@ -1,0 +1,197 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift";
+}
+
+a {
+  text-decoration: none;
+  color: #f1f8f8;
+}
+
+nav {
+  background: #e7efef;
+}
+
+.header-wrapper {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2f3b3c !important;
+}
+
+.brand-nav button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #2f3b3c;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer p {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.add-pizza {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-pizza form {
+  background: #e7efef;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.labels p {
+  margin-bottom: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.add-pizza form input {
+  font-size: 18px;
+  padding: 20px;
+  height: 50px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.add-pizza form input:focus {
+  outline: none;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit input {
+  padding: 0px !important;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #2f3b3c;
+  font-size: 20px !important;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f1f8f8;
+}
+
+.home {
+  height: 50vw;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: space-evenly;
+  margin: 0 auto;
+  column-gap: 20px;
+}
+
+.home-pizza-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: #e7efef;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.home-pizza-wrapper h2 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.home-pizza-wrapper img {
+  display: block;
+  position: absolute;
+  top: -70px;
+  left: 35%;
+  width: 100px;
+}
+
+.ingredients {
+  list-style: none;
+}
+
+.home-pizza-wrapper div button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #2f3b3c;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f1f8f8;
+}
+
+.details {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#delete {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #ff0000;
+  color: #f1f8f8;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pizza-details {
+  background: #e7efef;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+  border-color: #2f3b3c;
+  border-style: ridge;
+}
+
+.pizza-details h2,
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
